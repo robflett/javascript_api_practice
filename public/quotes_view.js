@@ -16,8 +16,8 @@ QuotesView.prototype = {
   
 
   newquotes: function(){
-    console.log("New Quote Button....")
     this.selectedElement.innerHTML = "";
+    app();
   }
 
 };

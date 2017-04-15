@@ -4,7 +4,7 @@ var app = function(){
 
   var quotesButton = document.querySelector("button");
 
-  var quotesView = new QuotesView(document.querySelector("#quotes"), document.querySelector("#get-new-quote"));
+  var quotesView = new QuotesView(document.querySelector(".quotes"), document.querySelector("#get-new-quote"));
 
   quoteList.done = quotesView.render.bind(quotesView)
 

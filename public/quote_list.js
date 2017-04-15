@@ -19,7 +19,7 @@ QuoteList.prototype = {
     }.bind(this);
 
     request.send()
-    console.log(this)
+    // console.log(this)
   }
 
 }
