@@ -1,23 +1,23 @@
-var QuotesView = function(selectedElement, clearButton){
+var QuotesView = function(selectedElement, selectedButton){
   this.selectedElement = selectedElement;
-  // this.selectedButton = selectedButton;
-  // this.selectedButton.addEventListener("click", this.newquotes.bind(this));
+  this.selectedButton = selectedButton;
+  this.selectedButton.addEventListener("click", this.newquotes.bind(this));
 };
 
 QuotesView.prototype = {
 
 
-    render: function(quotes){
-      var pTag = document.createElement("p");
-      pTag.innerText = quotes
-      this.selectedElement.appendChild(pTag);
-    },
+  render: function(quotes){
+    var pTag = document.createElement("p");
+    pTag.innerText = quotes
+    this.selectedElement.appendChild(pTag);
+  },
 
   
 
-  // clear: function(){
-  //   console.log("Clear button....")
-  //   this.detailsElement.innerHTML = "";
-  // }
+  newquotes: function(){
+    console.log("New Quote Button....")
+    this.selectedElement.innerHTML = "";
+  }
 
 };
