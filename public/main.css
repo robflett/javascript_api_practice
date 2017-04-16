@@ -1,28 +1,106 @@
-main{
- font-family: 'Rock Salt', cursive;
+h1 {  
+  font-size: 2em;
+  font-family: 'Courier New', sans-serif;
+}
+
+html { 
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/34/a7/35/34a7353e398b63c5972f84a046f7efec.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+main {
+ font-family: 'Arial Black', sans-serif;
  font-size: 1em;
- width: 300px;
+ width: 350px;
  height: auto;
  margin: 0 auto;
  display: block
 }
 
-input{
-  padding: 10px;
-  border-radius: 5px;
-  width: 400px;
-  font-size: 22px;
-  margin: 10px;
+div {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1em;
+  width: 300px;
+  height: auto;
+  margin: 45px;
+  display: block
 }
 
-h1 {  
-  font-family: 'Cardo', serif;
+#signature {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.2em;
+  margin-left: 200px;
+  display: block;
 }
 
-p {
-  margin: 25px;
+img {
+    size: 1.2em;
+    border-top: 40px;
+    border: 40px solid transparent;
+    border-image: url(http://www.okclipart.com/img34/uyzyuuufgtosigqxwmpt.gif) 50 round;
+    /*border-radius: 50px;*/
+    /*background: url(paper.gif);*/
+    /*background-position: left top;
+    background-repeat: repeat;*/
+    /*padding: 20px; */
+    width: 20%;
+    height: auto; 
+    float: right;
+    float: top;
 }
 
+button {
+ background: url("http://1.bp.blogspot.com/-tXavBQFjNFQ/VMSaYaq7PtI/AAAAAAAADSc/awMPRe3yu5A/s1600/wood_pattern.png") scroll 0 0 transparent;
+ color: #000000;
+
+ box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+       inset 0px -5px 0px 0px rgba(0,0,0,0.3),
+    inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+
+ overflow: hidden;
+ cursor: pointer;
+
+ margin: 36px;
+ padding: 15px 45px;
+ font-size: 24px;
+ font-family: "Courier New", sans-serif;
+ line-height: 1.8;
+ appearance: none;
+ box-shadow: none;
+ border-radius: 8px;
+ position: center;
+ margin: auto;
+ display: block;
+}
+
+button:active {
+ box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2),
+       inset 0px -2px 0px 0px rgba(0,0,0,0.3),
+    inset 0px 2px 0px 0px rgba(255,255,255,0.5);
+ top: 3px;
+}
+
+button div {
+ padding: 10px 20px 12px 20px;
+ color: rgba(0,0,0,0.7);
+ text-shadow: 1px 1px 0px rgba(255,255,255,0.4);
+}
+
+button:active div {
+ padding-bottom: 9px;
+}
+
+
+/*wood {
+ background: url(http://1.bp.blogspot.com/-tXavBQFjNFQ/VMSaYaq7PtI/AAAAAAAADSc/awMPRe3yu5A/s1600/wood_pattern.png);
+}*/
+
+
+/*
 button { 
   padding: 15px 45px;
   font-size: 24px;
@@ -30,7 +108,7 @@ button {
   line-height: 1.8;
   appearance: none;
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 8px;
   position: center;
   margin: auto;
   display: block;
@@ -41,24 +119,21 @@ button:focus {
 }
 
 section button {
-  color: #fff;
-  background-color: #6496c8;
+  color: 'Tan';
+  background-color: 'Tan';
   text-shadow: -1px 1px #417cb8;
   border: none;
 }
 
 section button:hover,
 section button.hover {
-  background-color: #346392;
+  background-color: 'Tan';
   text-shadow: -1px 1px #27496d;
 }
 
 section button:active,
 section button.active {
-  background-color: #27496d;
+  background-color: 'Tan';
   text-shadow: -1px 1px #193047;
-}
-
-./*quote {
- 
 }*/
+

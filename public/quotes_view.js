@@ -9,7 +9,7 @@ QuotesView.prototype = {
 
   render: function(quotes){
     var pTag = document.createElement("p");
-    pTag.innerText = quotes
+    pTag.innerText = "'" + quotes + "'"
     this.selectedElement.appendChild(pTag);
   },
 
