@@ -8,6 +8,7 @@ var QuoteList = function(url){
 QuoteList.prototype = {
 
   populate: function(){
+    console.log('populate called')
     var request = new XMLHttpRequest();
     request.open("GET", this.url)
     request.onload = function(){
@@ -19,7 +20,7 @@ QuoteList.prototype = {
     }.bind(this);
 
     request.send()
-    // console.log(this)
+    console.log(this)
   }
 
 }
